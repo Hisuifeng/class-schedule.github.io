@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.png">
+    <title>课程表</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script id="s2" type="text/javascript" src=""></script>
+</head>
+
+<body>
+    <div id="background"></div>
+    <table id="tab"><!--table是块状元素的-->
+        <tr>
+        <tr><!--使用th会使12345加粗并居中-->
+            <th colspan="6">课程表</th><!--行合并colspan-->
+        </tr>
+        <td class="td1"></td>
+        <td class="td1">周一</td>
+        <td class="td1">周二</td>
+        <td class="td1">周三</td>
+        <td class="td1">周四</td>
+        <td class="td1">周五</td>
+        </tr>
+        <tr>
+            <td class="time">第一节<br />8:30-9:15</td>
+            <td></td>
+            <td rowspan="2">离散数学<br />IIC309 冉恩</td><!--rowspan合并两列-->
+            <td rowspan="2">数据结构与算法<br />IIA305 崔若楠</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">第二节<br />9:20-10:05</td>
+            <td></td>
+            <td rowspan="3">马原<br />IIB211 何志全</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">第三节<br />10:25-11:10</td>
+            <td rowspan="2">Android图形化编程<br />D604 谢从晋</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">第四节<br />11:15-12:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th colspan="6">中午</th><!--行合并colspan-->
+        </tr>
+        <tr>
+            <td class="time">第七节<br />14:30-15:15</td>
+            <td></td>
+            <td></td>
+            <td rowspan="2">大学英语（3）<br />IA313 方雨馨</td>
+            <td rowspan="2">面向对象程序设计<br />D202 晏瑜鸿</td>
+            <td rowspan="2">形势与政策*<br />教学楼9阶 陈雪琴</td>
+        </tr>
+        <tr>
+            <td class="time">第八节<br />15:20-16:05</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">第九节<br />16:25-17:10</td>
+            <td rowspan="2">大学英语（3）<br />IA313 方雨馨</td>
+            <td rowspan="2">数据结构与算法<br />IIA305 崔若楠</td>
+            <td rowspan="2">面向对象程序设计<br />IA312 晏瑜鸿</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">第十节<br />17:15-18:00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">第十一节<br />19:00-19:45</td>
+            <td></td>
+            <td></td>
+            <td rowspan="2">离散数学<br />IIC309 冉恩</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">第十二节<br />19:50-20:35</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>
